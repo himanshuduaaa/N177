@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--version 1.0.0.8 - 12/2/2021 10:17:03 AM - https://aristocratgaming-my.sharepoint.com/personal/carlyn_albright_aristocrat_com/Documents/Documents/N177_Math.xlsx-->
+<weighttables version="1.00" xmlns="http://aristocrat-inc.com/WeightTable.xsd">
+  <weighttable name="FinalMultiplier" type="int">
+    <weightentry count="650" value="2" />
+    <weightentry count="275" value="3" />
+    <weightentry count="75" value="5" />
+  </weighttable>
+  <weighttable name="FirstMultiplier" type="int">
+    <weightentry count="700" value="2" />
+    <weightentry count="1" value="3" />
+    <weightentry count="1" value="5" />
+  </weighttable>
+  <weighttable name="SecondMultiplier" type="int">
+    <weightentry count="1" value="2" />
+    <weightentry count="700" value="3" />
+    <weightentry count="1" value="5" />
+  </weighttable>
+  <weighttable name="ThirdMultiplier" type="int">
+    <weightentry count="1" value="2" />
+    <weightentry count="1" value="3" />
+    <weightentry count="700" value="5" />
+  </weighttable>
+  <weighttable name="CORSet" type="int">
+    <weightentry count="50" value="1" />
+    <weightentry count="50" value="2" />
+    <weightentry count="20" value="3" />
+  </weighttable>
+  <weighttable name="CORValues_1" type="string">
+    <weightentry count="40" value="0.2" />
+    <weightentry count="30" value="0.4" />
+    <weightentry count="30" value="0.6" />
+    <weightentry count="20" value="0.8" />
+    <weightentry count="20" value="1" />
+    <weightentry count="20" value="1.4" />
+    <weightentry count="20" value="2" />
+    <weightentry count="10" value="3" />
+    <weightentry count="10" value="4" />
+    <weightentry count="10" value="5" />
+    <weightentry count="5" value="10" />
+    <weightentry count="2" value="Mini" />
+    <weightentry count="2" value="Minor" />
+    <weightentry count="1" value="Major" />
+  </weighttable>
+  <weighttable name="CORValues_2" type="string">
+    <weightentry count="10" value="0.2" />
+    <weightentry count="10" value="0.4" />
+    <weightentry count="10" value="0.6" />
+    <weightentry count="10" value="0.8" />
+    <weightentry count="25" value="1" />
+    <weightentry count="25" value="1.4" />
+    <weightentry count="25" value="2" />
+    <weightentry count="15" value="3" />
+    <weightentry count="15" value="4" />
+    <weightentry count="15" value="5" />
+    <weightentry count="10" value="10" />
+    <weightentry count="10" value="Mini" />
+    <weightentry count="5" value="Minor" />
+    <weightentry count="1" value="Major" />
+  </weighttable>
+  <weighttable name="CORValues_3" type="string">
+    <weightentry count="5" value="0.2" />
+    <weightentry count="5" value="0.4" />
+    <weightentry count="5" value="0.6" />
+    <weightentry count="5" value="0.8" />
+    <weightentry count="50" value="1" />
+    <weightentry count="50" value="1.4" />
+    <weightentry count="50" value="2" />
+    <weightentry count="20" value="3" />
+    <weightentry count="20" value="4" />
+    <weightentry count="20" value="5" />
+    <weightentry count="25" value="10" />
+    <weightentry count="5" value="Mini" />
+    <weightentry count="10" value="Minor" />
+    <weightentry count="3" value="Major" />
+  </weighttable>
+</weighttables>

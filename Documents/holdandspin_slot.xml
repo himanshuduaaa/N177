@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--version 1.0.0.8 - 12/2/2021 10:17:03 AM - https://aristocratgaming-my.sharepoint.com/personal/carlyn_albright_aristocrat_com/Documents/Documents/N177_Math.xlsx-->
+<scenedefinition version="1.00" name="holdandspin" reelstripdatafile="holdandspin_reelstrips.xml">
+  <symboldefs>
+    <symboldef id="1" name="COR" />
+    <symboldef id="2" name="Blank" />
+  </symboldefs>
+  <symbolsubs />
+  <reelstrips numrows="1" betindex="0,1" lineindex="0,1">
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+    <reelstrip>HSReelStrips_7 COR</reelstrip>
+    <reelstrip>HSReelStrips_8 COR</reelstrip>
+    <reelstrip>HSReelStrips_9 COR</reelstrip>
+    <reelstrip>HSReelStrips_10 COR</reelstrip>
+    <reelstrip>HSReelStrips_11 COR</reelstrip>
+    <reelstrip>HSReelStrips_12 COR</reelstrip>
+    <reelstrip>HSReelStrips_13 COR</reelstrip>
+    <reelstrip>HSReelStrips_14 COR</reelstrip>
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+    <reelstrip>HSReelStrips_6 COR</reelstrip>
+  </reelstrips>
+  <playlines usereelpower="true" />
+</scenedefinition>

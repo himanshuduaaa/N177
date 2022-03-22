@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--version 1.0.0.8 - 12/2/2021 10:17:03 AM - https://aristocratgaming-my.sharepoint.com/personal/carlyn_albright_aristocrat_com/Documents/Documents/N177_Math.xlsx-->
+<weighttables version="1.00" xmlns="http://aristocrat-inc.com/WeightTable.xsd">
+  <weighttable name="3ScatterWheel" type="string">
+    <weightentry count="300" value="5 Free Spins" />
+    <weightentry count="225" value="x8 chipsMultiplier" />
+    <weightentry count="187" value="x10 chipsMultiplier" />
+    <weightentry count="90" value="x12 chipsMultiplier" />
+    <weightentry count="22" value="x15 chipsMultiplier" />
+    <weightentry count="75" value="0.0032 goldMultiplier" />
+    <weightentry count="63" value="0.004 goldMultiplier" />
+    <weightentry count="30" value="0.0048 goldMultiplier" />
+    <weightentry count="8" value="0.006 goldMultiplier" />
+  </weighttable>
+  <weighttable name="4ScatterWheel" type="string">
+    <weightentry count="300" value="10 Free Spins" />
+    <weightentry count="225" value="x20 chipsMultiplier" />
+    <weightentry count="187" value="x30 chipsMultiplier" />
+    <weightentry count="90" value="x40 chipsMultiplier" />
+    <weightentry count="22" value="x50 chipsMultiplier" />
+    <weightentry count="75" value="0.008 goldMultiplier" />
+    <weightentry count="63" value="0.012 goldMultiplier" />
+    <weightentry count="30" value="0.016 goldMultiplier" />
+    <weightentry count="8" value="0.02 goldMultiplier" />
+  </weighttable>
+  <weighttable name="5ScatterWheel" type="string">
+    <weightentry count="300" value="25 Free Spins" />
+    <weightentry count="225" value="x60 chipsMultplier" />
+    <weightentry count="187" value="x70 chipsMultiplier" />
+    <weightentry count="90" value="x80 chipsMultiplier" />
+    <weightentry count="22" value="x150 chipsMultiplier" />
+    <weightentry count="75" value="0.024 goldMultiplier" />
+    <weightentry count="63" value="0.028 goldMultiplier" />
+    <weightentry count="30" value="0.032 goldMultiplier" />
+    <weightentry count="8" value="0.06 goldMultiplier" />
+  </weighttable>
+  <weighttable name="CORSet" type="int">
+    <weightentry count="70" value="1" />
+    <weightentry count="30" value="2" />
+    <weightentry count="10" value="3" />
+  </weighttable>
+  <weighttable name="CORValues_1" type="string">
+    <weightentry count="40" value="0.2" />
+    <weightentry count="30" value="0.4" />
+    <weightentry count="30" value="0.6" />
+    <weightentry count="20" value="0.8" />
+    <weightentry count="20" value="1" />
+    <weightentry count="20" value="1.4" />
+    <weightentry count="20" value="2" />
+    <weightentry count="10" value="3" />
+    <weightentry count="10" value="4" />
+    <weightentry count="10" value="5" />
+    <weightentry count="5" value="10" />
+    <weightentry count="2" value="Mini" />
+    <weightentry count="2" value="Minor" />
+    <weightentry count="1" value="Major" />
+  </weighttable>
+  <weighttable name="CORValues_2" type="string">
+    <weightentry count="10" value="0.2" />
+    <weightentry count="10" value="0.4" />
+    <weightentry count="10" value="0.6" />
+    <weightentry count="10" value="0.8" />
+    <weightentry count="25" value="1" />
+    <weightentry count="25" value="1.4" />
+    <weightentry count="25" value="2" />
+    <weightentry count="15" value="3" />
+    <weightentry count="15" value="4" />
+    <weightentry count="15" value="5" />
+    <weightentry count="10" value="10" />
+    <weightentry count="10" value="Mini" />
+    <weightentry count="5" value="Minor" />
+    <weightentry count="1" value="Major" />
+  </weighttable>
+  <weighttable name="CORValues_3" type="string">
+    <weightentry count="5" value="0.2" />
+    <weightentry count="5" value="0.4" />
+    <weightentry count="5" value="0.6" />
+    <weightentry count="5" value="0.8" />
+    <weightentry count="50" value="1" />
+    <weightentry count="50" value="1.4" />
+    <weightentry count="50" value="2" />
+    <weightentry count="20" value="3" />
+    <weightentry count="20" value="4" />
+    <weightentry count="20" value="5" />
+    <weightentry count="25" value="10" />
+    <weightentry count="5" value="Mini" />
+    <weightentry count="10" value="Minor" />
+    <weightentry count="3" value="Major" />
+  </weighttable>
+</weighttables>

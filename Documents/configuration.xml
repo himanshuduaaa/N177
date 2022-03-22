@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--version 1.0.0.8 - 12/2/2021 10:17:03 AM - https://aristocratgaming-my.sharepoint.com/personal/carlyn_albright_aristocrat_com/Documents/Documents/N177_Math.xlsx-->
+<GameConfiguration version="1.00" xmlns="http://aristocrat-inc.com/Configuration.xsd">
+  <!-- GameInfo -->
+  <GameInfo gameWritable="false" serverOnly="false" editable="false">
+    <Name>N177</Name>
+    <MathPackageId issue="A" date="08/25/18">DD0004</MathPackageId>
+    <Version>01010001</Version>
+    <Displays count="2" minimum="1" verticalSync="none">
+      <Display id="main" />
+      <Display id="buttondeck" type="Viridian" />
+    </Displays>
+  </GameInfo>
+  <!-- Combination Testing -->
+  <CombinationTest gameWritable="false" serverOnly="false" editable="false">off</CombinationTest>
+  <!-- Initial state after memory reset -->
+  <InitialState gameWritable="true" serverOnly="false" editable="true">
+    <ReelStops>0 0 0 0 0</ReelStops>
+  </InitialState>
+  <!-- Replay Helpers -->
+  <ReplayState gameWritable="true" serverOnly="false" editable="true">
+    <LineIndex>0</LineIndex>
+    <BetIndex>0</BetIndex>
+    <ReelStops>0 0 0 0 0</ReelStops>
+    <WinAmount>0</WinAmount>
+    <FirstGame>true</FirstGame>
+  </ReplayState>
+  <!-- Bet Options-->
+  <BetOptions gameWritable="false" serverOnly="false" editable="false">
+    <Active>5 Reels</Active>
+    <BetOption name="5 Reels" description="All Bets">
+      <Bet button="Bet_1" buttonName="Bet x 1" enabled="true">1</Bet>
+      <Bet button="Bet_2" buttonName="Bet x 2" enabled="true">2</Bet>
+    </BetOption>
+  </BetOptions>
+  <!-- Line Options-->
+  <LineOptions gameWritable="false" serverOnly="false" editable="false">
+    <!--Line Option Playline_1 is for bet(s) 1
+	Line Option Playline_2 is for bet(s) 2-->
+    <Active>All Lines</Active>
+    <LineOption name="All Lines" description="5 Reels">
+      <Line button="Playline_1" cost="25" ante="25" enabled="true" reels="5">25</Line>
+      <Line button="Playline_2" cost="50" ante="50" enabled="true" reels="5">25</Line>
+    </LineOption>
+  </LineOptions>
+  <!-- Button Names -->
+  <ButtonNames gameWritable="false" serverOnly="false" editable="true">
+    <Button id="Gamble">Gamble</Button>
+    <Button id="Collect">Cashout</Button>
+    <Button id="Play">Play</Button>
+    <Button id="Service">Service</Button>
+  </ButtonNames>
+  <WeightedAverages gameWritable="false" serverOnly="true" editable="false">
+    <WeightedAverage variationId="01">
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0
+    </WeightedAverage>
+  </WeightedAverages>
+  <!-- Variations -->
+  <Variations gameWritable="false" serverOnly="false" editable="false">
+    <Active>Variation 01</Active>
+    <Variation id="01" name="Variation 01" directory="Variation/01">
+      <ReturnToPlayer minimum="92" maximum="92" weightedaverages="92" />
+    </Variation>
+  </Variations>
+  <!-- Progressives -->
+  <Progressives gameWritable="false" serverOnly="false" editable="false">
+    <StandaloneProgressive name="N177Progressives" denomination="1">
+      <Variation name="Variation 01" rtp="0.00">
+        <Level id="1" name="Grand" behavior="Standard" initialValue="10000" resetValue="10000" maxValue="18446744073709551615" increment="0.005" hiddenIncrement="0.00" />
+        <Level id="2" name="Major" behavior="Standard" initialValue="3000" resetValue="3000" maxValue="18446744073709551615" increment="0.003" hiddenIncrement="0.00" />
+        <Level id="3" name="Minor" behavior="Standard" initialValue="1000" resetValue="1000" maxValue="18446744073709551615" increment="0.001" hiddenIncrement="0.00" />
+        <Level id="4" name="Mini" behavior="Standard" initialValue="500" resetValue="500" maxValue="18446744073709551615" increment="0" hiddenIncrement="0.00" />
+      </Variation>
+    </StandaloneProgressive>
+  </Progressives>
+  <!-- Denomination Selections -->
+  <Denominations gameWritable="false" serverOnly="false" editable="false">
+    <Active mode="Player" selection="1">1</Active>
+    <Operator>
+      <!-- Operator selectable denominations -->
+      <Selection>1</Selection>
+    </Operator>
+    <Player>
+      <!-- Denominations -->
+      <Selection>1</Selection>
+    </Player>
+  </Denominations>
+  <!-- Hidden Meters -->
+  <Meters gameWritable="true" serverOnly="false" editable="true">
+    <Meter hidden="true">Mystery Trigger</Meter>
+  </Meters>
+  <!-- Audio Settings -->
+  <!--  NOTE: The channel order is adjusted for both SpeakerLevels and SpeakerVolumes
+        under 5.1 SpeakerMode to have correct sound playback under Linux. This is due to
+        the difference in channel order between Windows/FMOD and Liux/ALSA. The default
+        channel order used in the tags below is Windows/FMOD, if this is 1, 2, 3, 4, 5, 6,
+        then the Linux order would be 1, 2, 5, 6, 3, 4. Basically, the pairs of
+        ("frontCenter" & "lowFrequency") and ("backLeft" & "backRight") are swapped.
+        For example, in SpeakerLevels, "frontCenter" in Windows/FMOD is number 3, but in
+        Linux it is number 5, so we need to set the 5th spot in content to "1.0" for this
+        channel. In SpeakerVolumes, "lowFrequency" in Windows/FMOD is number 4, but in
+        Linux it is number 6, so we need to set SpeakerVolumes for the 6th speaker ("backRight")
+        in order to control the 'lowFreqency' or LFE channel, this is the shaker on an iChair. -->
+  <Audio gameWritable="false" serverOnly="false" editable="true">
+    <SpeakerModes>
+      <Active>stereo</Active>
+      <SpeakerMode mode="stereo">
+        <SpeakerLevels speaker="frontLeft">0.75, 0.0, 0.35, 0.0, 0.55, 0.0</SpeakerLevels>
+        <SpeakerLevels speaker="frontRight">0.0, 0.75, 0.35, 0.0, 0.0, 0.55</SpeakerLevels>
+      </SpeakerMode>
+    </SpeakerModes>
+  </Audio>
+  <!-- Languages -->
+  <Languages gameWritable="true" serverOnly="false" editable="true">
+    <Active>en-us</Active>
+    <Default>en-us</Default>
+    <Language id="en-us" enabled="true" />
+    <Language id="zh-cn" enabled="true" />
+    <Language id="zh-tw" enabled="true" />
+  </Languages>
+</GameConfiguration>

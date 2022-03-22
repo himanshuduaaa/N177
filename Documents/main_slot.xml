@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--version 1.0.0.8 - 12/2/2021 10:17:03 AM - https://aristocratgaming-my.sharepoint.com/personal/carlyn_albright_aristocrat_com/Documents/Documents/N177_Math.xlsx-->
+<scenedefinition version="1.00" name="main" reelstripdatafile="main_reelstrips.xml">
+  <symboldefs>
+    <symboldef id="1" name="Compass" />
+    <symboldef id="2" name="Hat" />
+    <symboldef id="3" name="Binoculars" />
+    <symboldef id="4" name="Quetzal" />
+    <symboldef id="5" name="Frog" />
+    <symboldef id="6" name="Jaguar" />
+    <symboldef id="7" name="Bird" />
+    <symboldef id="8" name="Snake" />
+    <symboldef id="9" name="Hyena" />
+    <symboldef id="10" name="Wild" />
+    <symboldef id="11" name="Scatter" anticipation="true" />
+    <symboldef id="12" name="COR" />
+    <symboldef id="13" name="Blank" />
+  </symboldefs>
+  <symbolsubs>
+    <symbolsub name="Wild" targetname="Compass" />
+    <symbolsub name="Wild" targetname="Hat" />
+    <symbolsub name="Wild" targetname="Binoculars" />
+    <symbolsub name="Wild" targetname="Quetzal" />
+    <symbolsub name="Wild" targetname="Frog" />
+    <symbolsub name="Wild" targetname="Jaguar" />
+    <symbolsub name="Wild" targetname="Bird" />
+    <symbolsub name="Wild" targetname="Snake" />
+    <symbolsub name="Wild" targetname="Hyena" />
+  </symbolsubs>
+  <reelstrips numrows="3" betindex="0,1" lineindex="0,1">
+    <reelstrip>BGReelSet_Reel 1</reelstrip>
+    <reelstrip>BGReelSet_Reel 2</reelstrip>
+    <reelstrip>BGReelSet_Reel 3</reelstrip>
+    <reelstrip>BGReelSet_Reel 4</reelstrip>
+    <reelstrip>BGReelSet_Reel 5</reelstrip>
+  </reelstrips>
+  <combos>
+    <combogroup type="line">
+      <combo id="5 Hyenas" award="1000">
+        <symbol name="Hyena" repeats="5" />
+      </combo>
+      <combo id="4 Hyenas" award="200">
+        <symbol name="Hyena" repeats="4" />
+      </combo>
+      <combo id="3 Hyenas" award="100">
+        <symbol name="Hyena" repeats="3" />
+      </combo>
+      <combo id="5 Snakes" award="500">
+        <symbol name="Snake" repeats="5" />
+      </combo>
+      <combo id="4 Snakes" award="100">
+        <symbol name="Snake" repeats="4" />
+      </combo>
+      <combo id="3 Snakes" award="50">
+        <symbol name="Snake" repeats="3" />
+      </combo>
+      <combo id="5 Birds" award="300">
+        <symbol name="Bird" repeats="5" />
+      </combo>
+      <combo id="4 Birds" award="60">
+        <symbol name="Bird" repeats="4" />
+      </combo>
+      <combo id="3 Birds" award="30">
+        <symbol name="Bird" repeats="3" />
+      </combo>
+      <combo id="5 Jaguars" award="250">
+        <symbol name="Jaguar" repeats="5" />
+      </combo>
+      <combo id="4 Jaguars" award="50">
+        <symbol name="Jaguar" repeats="4" />
+      </combo>
+      <combo id="3 Jaguars" award="25">
+        <symbol name="Jaguar" repeats="3" />
+      </combo>
+      <combo id="5 Frogs" award="200">
+        <symbol name="Frog" repeats="5" />
+      </combo>
+      <combo id="4 Frogs" award="40">
+        <symbol name="Frog" repeats="4" />
+      </combo>
+      <combo id="3 Frogs" award="20">
+        <symbol name="Frog" repeats="3" />
+      </combo>
+      <combo id="5 Quetzals" award="150">
+        <symbol name="Quetzal" repeats="5" />
+      </combo>
+      <combo id="4 Quetzals" award="30">
+        <symbol name="Quetzal" repeats="4" />
+      </combo>
+      <combo id="3 Quetzals" award="15">
+        <symbol name="Quetzal" repeats="3" />
+      </combo>
+      <combo id="5 Binocularss" award="100">
+        <symbol name="Binoculars" repeats="5" />
+      </combo>
+      <combo id="4 Binocularss" award="20">
+        <symbol name="Binoculars" repeats="4" />
+      </combo>
+      <combo id="3 Binocularss" award="10">
+        <symbol name="Binoculars" repeats="3" />
+      </combo>
+      <combo id="5 Hats" award="50">
+        <symbol name="Hat" repeats="5" />
+      </combo>
+      <combo id="4 Hats" award="10">
+        <symbol name="Hat" repeats="4" />
+      </combo>
+      <combo id="3 Hats" award="5">
+        <symbol name="Hat" repeats="3" />
+      </combo>
+      <combo id="5 Compasss" award="30">
+        <symbol name="Compass" repeats="5" />
+      </combo>
+      <combo id="4 Compasss" award="6">
+        <symbol name="Compass" repeats="4" />
+      </combo>
+      <combo id="3 Compasss" award="3">
+        <symbol name="Compass" repeats="3" />
+      </combo>
+      <combo id="2 Compasss" award="1">
+        <symbol name="Compass" repeats="2" />
+      </combo>
+    </combogroup>
+    <combogroup type="scatter" subtype="any">
+      <combo id="5 Scatters" award="0" feature="wheelspin" multiplywin="true">
+        <symbol name="Scatter" repeats="5" />
+      </combo>
+      <combo id="4 Scatters" award="0" feature="wheelspin" multiplywin="true">
+        <symbol name="Scatter" repeats="4" />
+      </combo>
+      <combo id="3 Scatters" award="0" feature="wheelspin" multiplywin="true">
+        <symbol name="Scatter" repeats="3" />
+      </combo>
+    </combogroup>
+  </combos>
+  <playlines usereelpower="false">
+    <playline>0, 0, 0, 0, 0</playline>
+    <playline>-1, -1, -1, -1, -1</playline>
+    <playline>1, 1, 1, 1, 1</playline>
+    <playline>-1, 0, 1, 0, -1</playline>
+    <playline>1, 0, -1, 0, 1</playline>
+    <playline>-1, -1, 0, -1, -1</playline>
+    <playline>1, 1, 0, 1, 1</playline>
+    <playline>0, 1, 1, 1, 0</playline>
+    <playline>0, -1, -1, -1, 0</playline>
+    <playline>-1, 0, 0, 0, -1</playline>
+    <playline>1, 0, 0, 0, 1</playline>
+    <playline>-1, 0, -1, 0, -1</playline>
+    <playline>1, 0, 1, 0, 1</playline>
+    <playline>0, -1, 0, -1, 0</playline>
+    <playline>0, 1, 0, 1, 0</playline>
+    <playline>0, 0, -1, 0, 0</playline>
+    <playline>0, 0, 1, 0, 0</playline>
+    <playline>-1, 1, -1, 1, -1</playline>
+    <playline>1, -1, 1, -1, 1</playline>
+    <playline>0, -1, 1, -1, 0</playline>
+    <playline>0, 1, -1, 1, 0</playline>
+    <playline>-1, -1, 1, -1, -1</playline>
+    <playline>1, 1, -1, 1, 1</playline>
+    <playline>-1, 1, 1, 1, -1</playline>
+    <playline>1, -1, -1, -1, 1</playline>
+  </playlines>
+</scenedefinition>
